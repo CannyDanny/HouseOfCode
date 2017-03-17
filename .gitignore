@@ -1,6 +1,10 @@
-.codekit-cache
-config.codekit
-desktop.ini
 .DS_Store
-node_modules
-.npm-debug.log
+Resources
+build.log
+build
+npm-debug.log
+tmp
+.map
+.project
+.settings
+Thumbs.db
