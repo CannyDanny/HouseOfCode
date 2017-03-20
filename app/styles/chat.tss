@@ -1,4 +1,29 @@
+"#chatList": {
+	width: "100%",
+	height: Ti.UI.SIZE,
+	top: "100px"
+}
 
-".container" : {
-  
+".chatMessageRow": {
+	width: "80%",
+	layout: "horizontal"
+}
+".chatMessageImg": {
+	width: "30%"
+}
+".chatMessageView": {
+	backgroundColor: Alloy.Globals.whiteText,
+	borderRadius: "10dp",
+	width: "60%",
+	height: Titanium.UI.SIZE
+}
+".chatMessage": {
+	color: "black",
+	top: "5dp",
+	right: "10dp",
+	bottom: "5dp",
+	left: "5dp",
+	font: {
+		fontSize: "12dp"
+	}
 }

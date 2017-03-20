@@ -1,4 +1,16 @@
 <Alloy>
-	<View class="container">
-	</View>
+	<Window class="bgColor">
+		<TableView id="chatList">
+			
+			<TableViewSection id="chatGroup">
+				<TableViewRow class="chatMessageRow">							
+					<ImageView class="chatMessageImg" image="images/profilePlaceholder.png"></ImageView>
+					<View class="chatMessageView">
+						<Label class="chatMessage">asddsa asd asd asd asd asd asd asd asd asd asd dsfdfsdfsdf sdfsdfsdf sdfsdf sdfsdf sdf sdf</Label>
+					</View>
+				</TableViewRow>
+			</TableViewSection>
+			
+		</TableView>
+	</Window>
 </Alloy>

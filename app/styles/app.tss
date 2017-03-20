@@ -25,7 +25,7 @@ overrode the settings with other TSS, XML, or JS settings:
 
 */
 
-".bgcontainer": {
+".bgColor": {
 	backgroundColor: Alloy.Globals.backgroundColor
 }
 
