@@ -1,2 +1,0 @@
-# HouseOfCode
-Semester project

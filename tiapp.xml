@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ti:app xmlns:ti="http://ti.appcelerator.org">
-    <id>dk.davidwolff.houseofcode</id>
-    <name>HouseOfCode</name>
+    <id>com.opgaveplswork</id>
+    <name>opgaveplswork</name>
     <version>1.0</version>
-    <publisher>calus</publisher>
-    <url>http://www.davidwolff.dk</url>
-    <description>undefined</description>
-    <copyright>2017 by calus</copyright>
+    <publisher>annav</publisher>
+    <url/>
+    <description/>
+    <copyright>2017 by annav</copyright>
     <icon>appicon.png</icon>
     <fullscreen>false</fullscreen>
     <navbar-hidden>false</navbar-hidden>
     <analytics>true</analytics>
-    <guid>7962c9ea-2c41-4a1b-9aaa-9be19acf4ca4</guid>
+    <guid>2c7ccd3e-86f5-4f1f-9bbb-640e9d594624</guid>
     <property name="ti.ui.defaultunit" type="string">dp</property>
     <property name="run-on-main-thread" type="bool">true</property>
     <ios>
@@ -50,16 +50,37 @@
         </splash>
         <theme>default</theme>
     </mobileweb>
-    <modules/>
+    <modules>
+        <module platform="android">hyperloop</module>
+        <module platform="commonjs">ti.cloud</module>
+    </modules>
     <deployment-targets>
-        <target device="android">true</target>
-        <target device="ipad">false</target>
         <target device="iphone">false</target>
+        <target device="ipad">false</target>
+        <target device="android">true</target>
         <target device="mobileweb">false</target>
+        <target device="windows">false</target>
     </deployment-targets>
-    <sdk-version>6.0.1.GA</sdk-version>
+    <sdk-version>6.0.2.GA</sdk-version>
     <plugins>
         <plugin version="1.0">ti.alloy</plugin>
+        <plugin>hyperloop</plugin>
     </plugins>
-    <property name="appc-app-id" type="string">58cb9f7cc5de399821332b64</property>
+    <property name="appc-app-id" type="string">58dccea1420ee5624cc43453</property>
+    <property name="acs-authbase-url-development" type="string">https://secure-identity.cloud.appcelerator.com</property>
+    <property name="acs-base-url-development" type="string">https://api.cloud.appcelerator.com</property>
+    <property name="acs-oauth-secret-development" type="string">qGGbdXVINYuEgzMhcF8Ii37HBl4U0vwq</property>
+    <property name="acs-oauth-key-development" type="string">s9rTIWX9jaRwsDX8T6Y7xyWH67zFNGDO</property>
+    <property name="acs-api-key-development" type="string">JRPifWCKox6AuF3NpPXmkd1ahpFNvRYS</property>
+    <property name="acs-username-development" type="string">appc_app_user_dev</property>
+    <property name="acs-password-development" type="string">fXNua6PAh45KJu3ayX</property>
+    <property name="acs-authbase-url-production" type="string">https://secure-identity.cloud.appcelerator.com</property>
+    <property name="acs-base-url-production" type="string">https://api.cloud.appcelerator.com</property>
+    <property name="acs-oauth-secret-production" type="string">3pTTJVx5D6b9JSNnPFVY7gdSA6tUSUKc</property>
+    <property name="acs-oauth-key-production" type="string">sgWcgu2Jmf9ooBSbZaRFCp9dYVVZf8Rc</property>
+    <property name="acs-api-key-production" type="string">1okgJxTq0mqW4kC2vflOyZZaszj4w5i4</property>
+    <property name="acs-username-production" type="string">appc_app_user</property>
+    <property name="acs-password-production" type="string">7krD3yvOPofmd5oQWE</property>
+    <property name="appc-org-id" type="string">75936154928058</property>
+    <property name="appc-creator-user-id" type="string">feb67ace-d70a-426d-9ea1-95c81c420c99</property>
 </ti:app>

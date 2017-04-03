@@ -1,5 +1,68 @@
 <Alloy>
-	<Window class="bgcontainer">
-		<Label id="label" onClick="doClick">Hello!!, World!!!</Label>
+	<Window class="container">
+		
+		<View id="header">
+			<View id="backbutton">
+				<ImageView class="image" image="https://68.media.tumblr.com/fbed94fcb5bd752d6fc1424e5773d4f9/tumblr_on4dl4XPbw1rquwb9o1_540.png"></ImageView>			
+			</View>
+				<View id="title">
+					<Label id="spicyrice">Opgavedetaljer</Label>	
+				</View>
+		</View>
+		
+		<ScrollView id="background">
+			
+			<View id="taskdetailstitle">
+					<Label id="taskname">Hjælp til ﬂytning søges</Label>
+					<Label id="taskdate">14.02.17</Label>
+					<View id="profileimgcontainer">
+						<ImageView class="image" image="https://learn.neighborly.com/wp-content/uploads/2015/03/sean_profile_picture_round.png"></ImageView>
+					</View>
+					<Label id="taskdate">Jens Løkke</Label>
+					<Button id="taskdetailsbutton" title="Gruppechat"></Button>
+					
+					<View id="taskdetailsdescription">
+						<Label id="taskdetailsdescriptiontextblue">Kategori: </Label>
+						<Label id="taskdetailsdescriptiontext"> Privat</Label>
+					</View>
+					<View id="taskdetailsdescription">
+						<Label id="taskdetailsdescriptiontextblue">Adresse: </Label>
+						<Label id="taskdetailsdescriptiontext">Kløkkestobervej 3, 5000 Odense</Label>
+					</View>
+					<View id="taskdetailsdescription">
+						<Label id="taskdetailsdescriptiontextblue">Antal personer: </Label>
+						<Label id="taskdetailsdescriptiontext">3</Label>
+					</View>
+					<View id="taskdetailsdescription">
+						<Label id="taskdetailsdescriptiontextblue">Beskrivelse: </Label>
+						<Label id="taskdetailsdescriptiontext">Some bullshit goes here about the details...</Label>
+					</View>
+					
+					<View id="title">
+					<Label id="spicyrice">Deltagere</Label>	
+					</View>
+					
+					<View id="deltagerecontainer">
+						<View id="deltagerecontainerimg">
+						<ImageView class="image" image="https://learn.neighborly.com/wp-content/uploads/2015/03/sean_profile_picture_round.png"></ImageView>
+						</View>
+						<View id="deltagerecontainerimg">
+						<ImageView class="image" image="https://learn.neighborly.com/wp-content/uploads/2015/03/sean_profile_picture_round.png"></ImageView>
+						</View>
+						<View id="deltagerecontainerimg">
+						<ImageView class="image" image="https://learn.neighborly.com/wp-content/uploads/2015/03/sean_profile_picture_round.png"></ImageView>
+						</View>
+					</View>
+			</View>
+			<View id="transparent">
+		</View>
+		</ScrollView>
+		
+		<View id="bottomnav">
+		</View>
+
+
+
+		
 	</Window>
 </Alloy>
