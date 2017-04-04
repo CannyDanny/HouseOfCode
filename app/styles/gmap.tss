@@ -1,7 +1,7 @@
 "#mapview" : {
     region : {
-        latitude:-33.87365,
-        longitude:151.20689,
+        latitude:55.401756,
+        longitude:10.433579,
         latitudeDelta:0.01,
         longitudeDelta:0.01
     }

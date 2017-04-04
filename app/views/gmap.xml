@@ -10,7 +10,7 @@
             mapType="Ti.Map.STANDARD_TYPE">
 
             <Annotation id="mountainView"
-              latitude="-33.8569" longitude="151.2153"
+              latitude="55.401756" longitude="10.433579"
               title="Appcelerator Headquarters" subtitle="Mountain View, CA"
               pincolor="Titanium.Map.ANNOTATION_RED"
               leftButton="/images/appcelerator_small.png"
