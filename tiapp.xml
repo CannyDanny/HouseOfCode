@@ -22,7 +22,6 @@
             </application>
         </manifest>
     </android>
-    <android xmlns:android="http://schemas.android.com/apk/res/android"/>
     <mobileweb>
         <precache/>
         <splash>

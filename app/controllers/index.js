@@ -1,6 +1,10 @@
 function openMap() {
 	var mapPage = Alloy.createController('gmap').getView();
-	mapPage.open();
+	mapPage.open({
+        modal: true
+    });
 }
+
+
 
 $.index.open();

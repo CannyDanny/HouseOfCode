@@ -21,3 +21,6 @@ overrode the settings with other TSS, XML, or JS settings:
 }
 
 */
+".container": {
+    fullscreen: true
+}

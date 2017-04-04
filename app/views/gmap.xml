@@ -1,3 +1,7 @@
 <Alloy>
+    <Window id="gmapView">
+        <!-- <View id="mapview" module="ti.map">
 
+        </View> -->
+    </Window>
 </Alloy>
