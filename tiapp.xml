@@ -20,6 +20,7 @@
                 <!-- Replace "PASTE YOUR GOOGLE MAPS API KEY HERE" with the Google API key you obtained -->
                 <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyBotnDBlQ21qy9VAwIr81RpCW21HMSIxHk"/>
             </application>
+            <uses-feature android:name="android.hardware.location.gps" />
         </manifest>
     </android>
     <mobileweb>

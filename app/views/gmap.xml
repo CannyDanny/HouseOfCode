@@ -1,7 +1,28 @@
 <Alloy>
     <Window id="gmapView">
-        <!-- <View id="mapview" module="ti.map">
+        <View id="mapview"
+            method="createView"
+            ns="Ti.Map"
+            module="ti.map"
+            animate="true"
+            regionFit="false"
+            userLocation="false"
+            mapType="Ti.Map.STANDARD_TYPE">
 
-        </View> -->
+            <Annotation id="mountainView"
+              latitude="-33.8569" longitude="151.2153"
+              title="Appcelerator Headquarters" subtitle="Mountain View, CA"
+              pincolor="Titanium.Map.ANNOTATION_RED"
+              leftButton="/images/appcelerator_small.png"
+              myid="1"/>
+
+              <Annotation id="testView"
+                latitude="-33.852222" longitude="151.210556"
+                title="Appcelerator Headquarters" subtitle="Mountain View, CA"
+                pincolor="Titanium.Map.ANNOTATION_RED"
+                leftButton="/images/appcelerator_small.png"
+                myid="1"/>
+
+        </View>
     </Window>
 </Alloy>
