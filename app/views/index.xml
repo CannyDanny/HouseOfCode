@@ -1,7 +1,7 @@
 <Alloy>
 	<Window>
         <View class="container">
-            <Label id="label" onClick="openMap">Front</Label>
+            <Label id="label" onClick="openMap">Open map</Label>
         </View>
 	</Window>
 </Alloy>

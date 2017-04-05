@@ -9,17 +9,17 @@
             userLocation="false"
             mapType="Ti.Map.STANDARD_TYPE">
 
-            <Annotation id="mountainView"
+            <Annotation class="annotationImage"
               latitude="55.401756" longitude="10.433579"
               title="Appcelerator Headquarters" subtitle="Mountain View, CA"
-              pincolor="Titanium.Map.ANNOTATION_RED"
+              image="images/selfie.png"
               leftButton="/images/appcelerator_small.png"
               myid="1"/>
 
-              <Annotation id="testView"
-                latitude="-33.852222" longitude="151.210556"
+              <Annotation class="annotationImage"
+                latitude="55.401714" longitude="10.133523"
                 title="Appcelerator Headquarters" subtitle="Mountain View, CA"
-                pincolor="Titanium.Map.ANNOTATION_RED"
+                image="images/selfie.png"
                 leftButton="/images/appcelerator_small.png"
                 myid="1"/>
 

@@ -48,7 +48,7 @@ var MapModule = require('ti.map');
                                 }
                         }
                     }else{
-                        showAlert('','Unable to find Address');
+                        alert('','Unable to find Address, be sure to have GPS and Internet activated on your phone.');
                     }
 
                 };
