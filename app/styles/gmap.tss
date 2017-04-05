@@ -1,3 +1,42 @@
+"#frontpage": {
+    layout: "vertical"
+}
+
+".topnav": {
+    height: "60dp",
+    width: "100%",
+    backgroundColor: Alloy.Globals.backgroundColor,
+    top: 0
+}
+".pageTitle": {
+    color: Alloy.Globals.viewTitle,
+    font: {
+        fontFamily: Alloy.Globals.roboto,
+        fontSize: "24dp"
+    }
+}
+"#topTabWrap": {
+    layout: "horizontal",
+    height: "40dp",
+    width: "100%",
+    backgroundColor: "white"
+}
+".topTapBtn": {
+    height: "40dp",
+    width: "33.3334%",
+    top: 0,
+    backgroundColor: "white",
+    color: Alloy.Globals.backgroundColor,
+    textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+    font: {
+        fontFamily: Alloy.Globals.roboto,
+        fontSize: "16dp"
+    },
+    borderWidth: "0.5",
+    borderColor: "black"
+}
+
+
 "#mapview" : {
     region : {
         latitude:55.401756,
@@ -5,8 +44,7 @@
         latitudeDelta:0.01,
         longitudeDelta:0.01
     },
-    height: "50%",
-    top: 0
+    height: "40%"
 }
 ".annotationImage": {
     borderRadius: "500px",

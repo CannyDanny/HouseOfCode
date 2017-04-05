@@ -1,5 +1,15 @@
 <Alloy>
-    <Window id="gmapView">
+    <Window id="frontpage">
+        <View class="topnav">
+            <Label class="pageTitle" value="Opdag">Opdag</Label>
+        </View>
+
+        <View id="topTabWrap">
+            <Label class="topTapBtn" backgroundColor=Alloy.Globals.viewTitle>I nærheden</Label>
+            <Label class="topTapBtn">Favoritter</Label>
+            <Label class="topTapBtn">Søg</Label>
+        </View>
+
         <View id="mapview"
             method="createView"
             ns="Ti.Map"
@@ -24,5 +34,9 @@
                 myid="1"/>
 
         </View>
+
+        <ScrollView id="taskList">
+
+        </ScrollView>
     </Window>
 </Alloy>

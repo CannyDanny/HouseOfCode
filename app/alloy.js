@@ -21,7 +21,10 @@ Alloy.Globals.tabIconBackground = "#192834"; // darkblue color for the tappend i
 Alloy.Globals.backgroundColor = "#182b38"; // background color for all the views
 
 // Global Require
-Alloy.Globals.Map = require('ti.map');
+// Alloy.Globals.Map = require('ti.map');
+
+Alloy.Globals.lobster = "Lobster";
+Alloy.Globals.roboto = "Roboto-Light";
 
 // USAGE
 // In a *.tss file you can write the following to get a specific color:

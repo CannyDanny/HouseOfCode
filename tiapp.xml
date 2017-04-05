@@ -8,8 +8,8 @@
     <description>undefined</description>
     <copyright>2017 by calus</copyright>
     <icon>appicon.png</icon>
-    <fullscreen>false</fullscreen>
-    <navbar-hidden>false</navbar-hidden>
+    <fullscreen>true</fullscreen>
+    <navbar-hidden>true</navbar-hidden>
     <analytics>true</analytics>
     <guid>7962c9ea-2c41-4a1b-9aaa-9be19acf4ca4</guid>
     <property name="ti.ui.defaultunit" type="string">dp</property>
