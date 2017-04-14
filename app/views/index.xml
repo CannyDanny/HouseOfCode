@@ -1,0 +1,12 @@
+<Alloy>
+	<Window class="container" id="Window">
+		<ScrollView>
+			<View layout="vertical" class="">
+				<ImageView id="logo" image="/images/logo.png"/>
+				<LoginButton id="fbLogin" module="facebook" top="50" />
+				<Button onClick="APIcall"> Test</Button>
+				<Label id="welcometext" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER">Velkommen til flavou. Ved at logge ind med Facebook, giver du samtidig din samtykke til at vi kan hente dine profiloplysninger. Vi poster aldrig noget pa dine vegne</Label>
+			</View>
+		</ScrollView>
+	</Window>
+</Alloy>

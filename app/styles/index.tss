@@ -1,0 +1,28 @@
+".container": {
+	backgroundColor:"#182b39"
+}
+
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000",
+}
+
+"#logo": {
+	
+	top:"100dp",
+	width:"80%",
+
+}
+
+
+"#welcometext":{
+	color:"#59d3ca",
+	top:"30dp",
+	width:"50%",
+		font: {
+		fontSize:"15",
+		fontFamily:"Roboto-Light"
+	},
+	
+}
