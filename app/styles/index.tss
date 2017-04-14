@@ -1,0 +1,120 @@
+".container": {
+	backgroundColor:"#182b39"
+}
+
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000"
+}
+
+".vertical":{
+	layout:"vertical"
+}
+
+".horizontal":{
+	layout:"horizontal"
+}
+".title":{
+	layout:"vertical",
+	top:"10dp",
+	color:"#59d3ca",
+font: {
+		fontSize: "20dp",
+	}
+}
+
+"#profile":{
+	layout:"horizontal",
+	width:"80%",
+	
+}
+
+".picture":{
+	layout:"vertical",
+	width:"50%",
+	height:"40%",
+	top:"80dp"
+}
+
+".photo":{
+	width:"100%"
+}
+
+"#personalinfo":{
+	layout:"vertical",
+	width:"50%",
+	top:"60dp",
+
+	
+}
+
+".info":{
+	top:"20dp",
+	font: {
+		fontSize: "20dp",
+	},
+	color:"white"
+}
+
+
+"#title2":{
+	color:"#59d3ca",
+	top:"230dp",
+font: {
+		fontSize: "20dp",
+	}
+}
+
+// Checkboxes code //
+
+	
+"Switch" : {
+    style:Ti.UI.Android.SWITCH_STYLE_CHECKBOX
+}
+"#catcontainer":{
+    layout:'horizontal',
+    width: "80%",
+    height: 30,
+    top: 270,
+}
+
+"#catcontainer1":{
+    layout:'horizontal',
+    width: "80%",
+    height: 30,
+    top: 300,
+}
+
+"#catcontainer2":{
+    layout:'horizontal',
+    width: "80%",
+    height: 30,
+    top: 330,
+  }	
+  
+  "#catcontainer3":{
+    layout:'horizontal',
+    width: "80%",
+    height: 30,
+    top: 360,
+  }	
+
+
+"#switchcontainer":{
+    layout:'horizontal',
+    width: "33.3%",
+    height: 30,
+}
+"#cattext": {
+    font: {
+        fontSize: 10
+    },
+    color: "white",
+}
+
+
+
+
+
+

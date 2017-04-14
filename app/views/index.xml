@@ -1,0 +1,90 @@
+<Alloy>
+	<Window class="container">
+		<!-- Profil title -->
+		<ScrollView>
+		 <View class="title">
+		 	<Label class="title">Profile</Label>
+		 </View>
+				<!-- Profil picture -->
+				<View id="profile">	
+					<View class="picture">
+						<ImageView class="photo" image="/images/profil.png"  />
+					</View>
+					<!-- Profil info -->
+					<View id="personalinfo" class="vertical">
+						<Label class="info">Karl Holger</Label>
+						<Label class="info">28 ar</Label>
+						<Label class="info">Odense C</Label>
+					</View>		
+				</View>
+				
+			
+			
+			<!-- Interest part -->
+			<View id="interest" class="vertical">
+				<Label id="title2">Interesser</Label>			
+			</View>	
+			
+			<!-- Checkboxes -->
+				<View id="catcontainer">
+					<View id="switchcontainer">
+						<Switch id="checkbox"/>
+						<Label id="cattext">Musik</Label>
+					</View>
+					<View id="switchcontainer">
+						<Switch id="checkbox"/>
+						<Label id="cattext">Håndarbejde</Label>
+					</View>
+					<View id="switchcontainer">
+						<Switch id="checkbox"/>
+						<Label id="cattext">Underhoing</Label>
+					</View>
+				</View>
+				
+				<View id="catcontainer1">
+					<View id="switchcontainer">
+						<Switch id="checkbox"/>
+						<Label id="cattext">Dyr</Label>
+					</View>
+					<View id="switchcontainer">
+						<Switch id="checkbox"/>
+						<Label id="cattext">Havearbejde</Label>
+					</View>
+					<View id="switchcontainer">
+						<Switch id="checkbox"/>
+						<Label id="cattext">Socialt</Label>
+					</View>
+				</View>
+				
+				<View id="catcontainer2">
+					<View id="switchcontainer">
+						<Switch id="checkbox"/>
+						<Label id="cattext">Madlavning</Label>
+					</View>
+					<View id="switchcontainer">
+						<Switch id="checkbox"/>
+						<Label id="cattext">Mekanik</Label>
+					</View>
+					<View id="switchcontainer">
+						<Switch id="checkbox"/>
+						<Label id="cattext">Natur</Label>
+					</View>
+				</View>
+				
+				<View id="catcontainer3">
+					<View id="switchcontainer">
+						<Switch id="checkbox"/>
+						<Label id="cattext">Kunst</Label>
+					</View>
+					<View id="switchcontainer">
+						<Switch id="checkbox"/>
+						<Label id="cattext">Sport</Label>
+					</View>
+					<View id="switchcontainer">
+						<Switch id="checkbox"/>
+						<Label id="cattext">Mode</Label>
+					</View>
+				</View>		
+			</ScrollView>	
+	</Window>
+</Alloy>
